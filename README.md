@@ -1,0 +1,3 @@
+# Portal rendering demo
+This is a remake of a project I attempted in JavaScript with WebGL 5 years ago (!)
+For simplicity I used OpenGLES for this, which WebGL is based on. The port to C++ is successful, and the bugs which plagued the old project have been squashed. I will see about turning this into a game engine...
