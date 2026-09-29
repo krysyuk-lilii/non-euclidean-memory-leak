@@ -64,7 +64,7 @@ namespace
 		GL_CHECK(glUniformMatrix4fv(meshShader.uniform("u_mvp"), 1, GL_FALSE, &mvp[0][0]));
 		GL_CHECK(glUniformMatrix4fv(meshShader.uniform("u_world"), 1, GL_FALSE, &world[0][0]));
 		GL_CHECK(glUniformMatrix4fv(meshShader.uniform("u_normalMatrix"), 1, GL_FALSE, &normalMatrix[0][0]));
-		glm::vec4 caseColor(1.0f, 0.5f, 0.55f, 1.0f);
+		glm::vec4 caseColor(0.65f, 0.65f, 0.65f, 1.0f);
 		GL_CHECK(glUniform4fv(meshShader.uniform("u_diffuseColor"), 1, &caseColor[0]));
 		GL_CHECK(glUniform1f(meshShader.uniform("u_shininess"), 48.0f));
 		caseMesh.draw(meshShader);
