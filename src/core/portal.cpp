@@ -1,4 +1,3 @@
-// src/render/Portal.cpp
 #include "core/portal.h"
 #include "core/scene.h"
 #include "core/game_object.h"
