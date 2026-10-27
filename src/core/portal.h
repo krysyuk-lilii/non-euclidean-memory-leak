@@ -10,10 +10,6 @@ struct Portal
     GameObject *obj         = nullptr;
     GameObject *linked      = nullptr;
     Scene      *linkedScene = nullptr;
-
-    glm::mat4 localToWorld() const;
-    glm::vec3 forward() const;     // world-space outward normal
-    glm::vec3 toLocal(glm::vec3 worldPos) const;
 };
 struct PortalTraveler
 {

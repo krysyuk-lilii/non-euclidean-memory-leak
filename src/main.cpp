@@ -3,7 +3,7 @@
 #include "core/scene.h"
 #include "core/game_object.h"
 #include "core/portal.h"
-#include "gl/GL.h"
+#include "gl/gl.h"
 #include "gl/gl_check.h"
 #include "gl/shader.h"
 #include "gl/mesh.h"
